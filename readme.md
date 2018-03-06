@@ -58,4 +58,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-<p>php artisan make:controller Admin/DashboardController - создание контроллера</p>
+<p>
+    php artisan make:controller Admin/DashboardController - создание контроллера
+</p> 
+<p>
+    php artisan make:model Category -m - создание модели(-m миграции)
+</p>
+<p>
+    php artisan make:controller Admin/CategoryController --resource --model=Category - создание контроллера c привязкой модели
+</p>
