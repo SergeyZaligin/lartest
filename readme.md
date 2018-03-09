@@ -65,5 +65,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
     php artisan make:model Category -m - создание модели(-m миграции)
 </p>
 <p>
-    php artisan make:controller Admin/CategoryController --resource --model=Category - создание контроллера c привязкой модели
+    php artisan make:controller Admin/CategoryController --resource --model=Category - создание контроллера c привязкой модели(php artisan make:controller Admin/ArticleController --resource --model=Article
+)
 </p>
